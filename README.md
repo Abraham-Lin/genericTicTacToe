@@ -16,7 +16,7 @@ A possibly (as far as I have tested) unbeatable NxN generic Tic Tac Toe AI logic
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 <hr>
-If you like to play Tic Tac Toe, check out my Android app <b>Square Tic Tac Toe</b>, where you have to form a Square instead of line!
+If you like to play Tic Tac Toe, check out my Android app <b>Square Tic Tac Toe</b>, where you have to form a Square instead of line! (Note: this app is different than the project shared here, and has much more games and features)
 <br>
 <a href="https://play.google.com/store/apps/details?id=me.squaretictactoe.squaretictactoe" target="_blank"><img src="http://squaretictactoe.me/images/square_tictactoe.gif" title="Square Tic Tac Toe" width="200" height="200"/></a>
 <br>
