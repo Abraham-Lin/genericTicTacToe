@@ -5,9 +5,11 @@ A possibly (as far as I have tested) unbeatable NxN generic Tic Tac Toe AI logic
 <a href="http://imgur.com/a/91yGE">Image album which depicts the crux of algorithm</a>
 
 <hr>
-<b>How to deploy
-<a href="https://drive.google.com/file/d/0B0NTnLwARdzoeHVzTjBLSWJNRHc/view?usp=sharing">Android apk</a>
-<a href="https://drive.google.com/file/d/0B0NTnLwARdzoRjhJNmVCbVBLV00/view?usp=sharing">Java Jar file</a>
+<b>How to deploy</b>
+<ul>
+<li><a href="https://drive.google.com/file/d/0B0NTnLwARdzoeHVzTjBLSWJNRHc/view?usp=sharing">Android apk</a></li>
+<li><a href="https://drive.google.com/file/d/0B0NTnLwARdzoRjhJNmVCbVBLV00/view?usp=sharing">Java Jar file</a></li>
+</ul>
 
 <hr>
 <b>Asset Credits:</b>
