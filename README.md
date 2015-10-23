@@ -2,6 +2,8 @@
 
 A possibly (as far as I have tested) unbeatable NxN generic Tic Tac Toe AI logic, where linesize=N (check out java code: <a href="https://github.com/ASIC-SP/genericTicTacToe/blob/master/core/src/me/squaretictactoe/genericTicTacToe/GenericTicTacToe.java">GenericTicTacToe.java</a>)
 
+<a href="http://imgur.com/a/91yGE">Image album which depicts the crux of algorithm</a>
+
 <hr>
 <b>Asset Credits:</b>
 <ul>
