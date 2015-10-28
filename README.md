@@ -2,6 +2,10 @@
 
 A possibly (as far as I have tested) unbeatable NxN generic Tic Tac Toe AI logic, where linesize=N (check out java code: <a href="https://github.com/ASIC-SP/genericTicTacToe/blob/master/core/src/me/squaretictactoe/genericTicTacToe/GenericTicTacToe.java">GenericTicTacToe.java</a>)
 
+<b>Turns out there are ways to beat this AI, atleast in 3x3 board</b>
+<a href="https://www.reddit.com/r/programming/comments/3pxdlw/unbeatable_nxn_generic_tic_tac_toe_ai_logic_n3/cwbcp87">Click here for more details</a>
+Suggestions welcome, I am planning to write a tester to generate all possible ways to beat this AI. As of now, it looks like I will have to add a ugly patch to overcome this particular case
+
 <a href="http://imgur.com/a/91yGE">Image album which depicts the crux of algorithm</a>
 
 <hr>
