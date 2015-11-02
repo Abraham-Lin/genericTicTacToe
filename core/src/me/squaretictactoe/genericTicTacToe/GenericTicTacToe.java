@@ -10,6 +10,9 @@ public class GenericTicTacToe
     private int numberOfLines;
     private int playerSum, computerSum, playerPreSum, computerPreSum;
 
+    //Patch work :(
+    private int numberOfMoves;
+
     private final static int EMPTY_VALUE  = 0;
     private final static int PLAYER_VALUE = 1;
     private static int       COMPUTER_VALUE;
@@ -34,6 +37,7 @@ public class GenericTicTacToe
         playerPreSum    = PLAYER_VALUE   * (lineSize -1);
         computerPreSum  = COMPUTER_VALUE * (lineSize -1);
 
+        numberOfMoves = 0;
         initializeArrays();
         getAllLinesIndex();
     }
@@ -125,6 +129,7 @@ public class GenericTicTacToe
         // 2) Block player winning move if available
         // 3) If player max index strength is >= computer max, choose that
         // 4) Else choose computer max index strength
+        // 5) Check for 3x3 corner case - patch work
         if(computerPreSumIndex != -1)
             index = computerPreSumIndex;
         else if(playerPreSumIndex != -1)
@@ -133,6 +138,17 @@ public class GenericTicTacToe
             index = playerMaxStrengthIndex;
         else
             index = computerMaxStrengthIndex;
+
+        //patch work
+        if(numberOfMoves == 3 && lineSize == 3)
+        {
+            //diagonal 1
+            if(boardValues[0] == PLAYER_VALUE && boardValues[4] == COMPUTER_VALUE && boardValues[8] == PLAYER_VALUE)
+                index = 1;
+            //diagonal 2
+            if(boardValues[2] == PLAYER_VALUE && boardValues[4] == COMPUTER_VALUE && boardValues[6] == PLAYER_VALUE)
+                index = 1;
+        }
 
         //game is heading to a tie if index = -1
         //playerMaxStrengthIndex and computerMaxStrengthIndex will be -1 if neither player has possibility to form a line
@@ -219,11 +235,13 @@ public class GenericTicTacToe
     public void setPlayerMove(int index)
     {
         boardValues[index] = PLAYER_VALUE;
+        numberOfMoves++;
     }
 
     public void setComputerMove(int index)
     {
         boardValues[index] = COMPUTER_VALUE;
+        numberOfMoves++;
     }
 
     private void printBoardStatus()
