@@ -4,9 +4,13 @@ A possibly (as far as I have tested) unbeatable NxN generic Tic Tac Toe AI logic
 
 <b>Turns out there are ways to beat this AI, atleast in 3x3 board</b>
 <a href="https://www.reddit.com/r/programming/comments/3pxdlw/unbeatable_nxn_generic_tic_tac_toe_ai_logic_n3/cwbcp87">Click here for more details</a>
-Suggestions welcome, I am planning to write a tester to generate all possible ways to beat this AI. As of now, it looks like I will have to add a ugly patch to overcome this particular case
+Suggestions welcome. As of now, added a ugly patch to overcome this particular case. And this time, wrote <a href="https://github.com/ASIC-SP/genericTicTacToe/blob/master/test/test.java">test.java</a> and confirmed that AI is indeed unbeatable for 3x3 board.
 
-<a href="http://imgur.com/a/91yGE">Image album which depicts the crux of algorithm</a>
+To do: improve test.java to test 4x4 and higher board sizes
+
+<hr>
+<a href="http://imgur.com/jER4T1C"><img src="http://i.imgur.com/jER4T1C.gif?1" title="source: imgur.com" /></a>
+<a href="http://imgur.com/a/91yGE">Individual images album of above gif</a>
 
 <hr>
 <b>How to deploy</b>
