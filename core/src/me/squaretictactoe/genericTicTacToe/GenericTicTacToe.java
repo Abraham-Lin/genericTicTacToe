@@ -235,12 +235,14 @@ public class GenericTicTacToe
     public void setPlayerMove(int index)
     {
         boardValues[index] = PLAYER_VALUE;
+        //patch work
         numberOfMoves++;
     }
 
     public void setComputerMove(int index)
     {
         boardValues[index] = COMPUTER_VALUE;
+        //patch work
         numberOfMoves++;
     }
 
